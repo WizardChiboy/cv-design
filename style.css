@@ -7,7 +7,7 @@
 .container {
   display: flex;
   justify-content: space-between;
-  margin: 30px;
+  /* margin: 30px; */
 }
 
 /* left section */
@@ -45,6 +45,7 @@
 .details > .skills ul li {
   letter-spacing: 2px;
   margin-bottom: 3px;
+  list-style: none;
 }
 
 /*  right section */
@@ -79,4 +80,18 @@
 .right-section .projects p {
   line-height: 20px;
   font-size: 16px;
+}
+
+.right-section .experience .companies,
+.right-section .projects .work-done {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.right-section .experience .companies .c,
+.right-section .projects .work-done .works {
+  margin-right: 10px;
 }
